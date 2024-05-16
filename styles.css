@@ -1,3 +1,34 @@
 * {
-  color: aqua;
+  font-family: 'Lato', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.row {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/*NAVIGATION*/
+
+nav {
+  max-height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 12px;
+}
+
+.logo__img {
+  max-height: 100px;
+  max-width: 100%;
+  overflow-x: none;
+  overflow-y: none;
 }

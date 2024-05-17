@@ -7,6 +7,8 @@
 
 html {
   scroll-behavior: smooth;
+  line-height: 1.5;
+
 }
 
 .row {
@@ -113,17 +115,21 @@ a {
 /*  HEADER  */
 
 h1 {
+  color: #2d2e30;
   font-size: 64px;
 }
+
 .p1 {
-  font-size: 24px;
+  color: #505255;
+  line-height: 1.5;
+  font-size: 26px;
   margin-bottom: 36px;
   margin-top: 36px;
 }
 
 .p2 {
   color: #d0d6df;
-  margin-top: 36px;
+  margin-top: 104px;
   margin-bottom: 24px;
   font-size: 18px;
   font-weight: bolder;
@@ -134,36 +140,56 @@ h1 {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding: 12px 12px;
+  padding: 4px 4px;
   border: 3px solid #d0d6df;
-  border-radius: 48px;
+  border-radius: 56px;
 }
+
 
 .btn {
-  font-size: 36px;
-  padding: 12px 12px;
+  font-weight: bold;
+  font-size: 24px;
+  padding: 24px 48px;
   color: white;
   background-color: #6415FF;
-  border-radius: 36px;
+  border-radius: 48px;
   border: solid ;
 }
+.get-started__email {
+  color: #ffffffc2;
+  font-weight: bold;
+  border: none;
+  font-size: 24px;
+  margin-left: 24px;
+
+}
+
 
 .email__imput {
+  margin-left: 24px;
   border: none;
   width: 50%;
   height: 64px;
 }
 
 .header__sections {
+  max-width: 1200px;
+
   display: flex;
   align-items: center;
 }
 
 .header__section {
-  width: 40%;
+  width: 60%;
   display: flex;
   flex-direction: column;
 }
+
+.header__img--wrapper {
+  width: 40%;
+  margin-top: 56px;
+}
+
 .header__img {
-  width: 60%;
+  width: 40%
 }
